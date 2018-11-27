@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>爱睿智知识库</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+    <div class="contain">
+      <h3>挂号相关习题</h3>
+      <div id="app">
+        <ol>
+          <li v-for='item in list'><a :href=item.adr>{{item.name}}</a></li>
+        </ol>
+      </div>
+    </div>
+    <script src="vue.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
