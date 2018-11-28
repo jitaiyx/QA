@@ -9,7 +9,7 @@
     <div class="contain">
       <h3>挂号相关习题</h3>
       <div id="app">
-        <ol>
+        <ol v-cloak>
           <li v-for='item in list'><a :href=item.adr>{{item.name}}</a></li>
         </ol>
       </div>

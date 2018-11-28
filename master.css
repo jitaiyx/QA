@@ -16,6 +16,10 @@ body {
   align-items: center;
 }
 
+[v-cloak]{
+  display: none;
+}
+
 h3,h4{
   color: #000;
 }
