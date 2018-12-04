@@ -8,7 +8,12 @@ new Vue({
         {name:"北京就医流程？",adr:"q4.html"},
         {name:"科室如何报到？",adr:"q5.html"},
         {name:"如何排队就诊？",adr:"q6.html"},
-        {name:"挂号的注意事项有哪些？",adr:"q7.html"}
+        {name:"挂号的注意事项有哪些？",adr:"q7.html"},
+        {name:"挂号提前几天预约？",adr:"q8.html"},
+        {name:"挂号是什么级别的专家？",adr:"q9.html"},
+        {name:"客户说挂号服务就算了，不用了。",adr:"q10.html"},
+        {name:"可以挂主任医师的号吗？",adr:"q11.html"},
+        {name:"其他地区的权益码需要挂北京/上海/广州的号。",adr:"q12.html"}
       ]
     }
 })

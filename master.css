@@ -1,40 +1,41 @@
 body {
-  background:url(bg1.jpg);
-  background-size:100%;
-  background-repeat:no-repeat;
-  margin:2.5rem;
+  background: url(bg1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin: 2.5rem;
   font-family: Microsoft Yahei;
   font-size: 4vw;
 }
 
-.contain{
+.contain {
   position: relative;
   width: 700px;
-  margin:0 auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-[v-cloak]{
+[v-cloak] {
   display: none;
 }
 
-h3,h4{
+h3, h4 {
   color: #000;
 }
 
-p{
+p {
   line-height: 6rem;
 }
 
-input{
-  color:white;
-  background:linear-gradient(to top right,#6e61ff,#16adf7);
+input {
+  color: white;
+  background: linear-gradient(to top right, #6e61ff, #16adf7);
   height: 3.5rem;
   width: 35%;
-  font-size:2.1rem;
+  font-size: 2.1rem;
 }
-ol li{
-  margin:2.8rem 0;
+
+ol li {
+  margin: 2.8rem 0;
 }
